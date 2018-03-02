@@ -5,10 +5,10 @@ config.MongoStore = {
   url: "mongodb://icehax:tommaso.celano01@ds159344.mlab.com:59344/flecad"
 }
 config.text = {
-	sheriff: "here goes the name of your sheriff department",
-	pd: "here goes the name of your police department",
-	ems: "here goes the name of your FIRE RESCUE department",
-	highway: "here goes the name of your highway patrol department",
+	sheriff: "BCSO",
+	pd: "LSPD",
+	ems: "EMS",
+	highway: "Highway Patrol",
 	sheriffbackground: "here goes a URL TO THE BACKGROUND IMAGE of your sheriff department",
 	pdbackground: "here goes a URL TO THE BACKGROUND IMAGE of your police department",
 	emsbackground: "here goes a URL TO THE BACKGROUND IMAGE of your fire rescue department",
@@ -28,8 +28,8 @@ config.text = {
 }
 
 config.admin = {
-	username: "admin username",
-	password: "admin password"
+	username: "Nick Robin",
+	password: "funtimes"
 }
 
 module.exports = config
